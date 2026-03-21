@@ -1,0 +1,17 @@
+# Version ultra-minimale efficace pour ton projet
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.joblib
+data/*.csv
+data/*.parquet
+models/
+*.png
+*.jpg
+.ipynb_checkpoints/
+catboost_info/
+.DS_Store
+.vscode/
