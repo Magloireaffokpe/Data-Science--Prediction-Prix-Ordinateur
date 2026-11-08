@@ -247,3 +247,20 @@ _Projet complet : EDA → Feature Engineering → ML → Interprétabilité → 
 ## 📄 Licence
 
 MIT License - Libre d'utilisation
+
+<!-- nouveau-pc:debut -->
+## Installer sur un nouveau PC
+
+**Prérequis :** Git et Python 3.12.
+
+```bash
+git clone https://github.com/Magloireaffokpe/Data-Science--Prediction-Prix-Ordinateur.git
+cd Data-Science--Prediction-Prix-Ordinateur
+python3 -m venv env
+source env/bin/activate   # Windows : env\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**À recopier à la main (hors Git) :** `data/` et `models/` (environ 60 Mo). Sans eux, il faut préparer les données et relancer le notebook d'entraînement avant de démarrer l'application.
+<!-- nouveau-pc:fin -->
